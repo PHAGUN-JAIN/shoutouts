@@ -1,4 +1,4 @@
-import "./styles.css";
+import "../../assets/styles.css";
 import CARD from "../cards/CARD";
 import data from "../../assets/data/stars";
 

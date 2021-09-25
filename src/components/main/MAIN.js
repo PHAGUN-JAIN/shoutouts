@@ -9,16 +9,18 @@ export default function MAIN() {
       <CARD name="john" position="champ" author="me" />
       <CARD name="john" position="champ" author="me" />
       <CARD name="john" position="champ" author="me" /> */}
-      {data.map((item) => {
-        return (
-          <CARD
-            img={item.img}
-            name={item.name}
-            position={item.position}
-            author={item.author}
-          />
-        );
-      })}
+      <div className="content-wrap">
+        {data.map((item) => {
+          return (
+            <CARD
+              img={item.img}
+              name={item.name}
+              position={item.position}
+              author={item.author}
+            />
+          );
+        })}
+      </div>
     </>
   );
 }

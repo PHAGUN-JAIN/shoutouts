@@ -3,11 +3,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import NAVBAR from "./components/nav/NAVBAR";
 import MAIN from "./components/main/MAIN";
 import STAR from "./components/starperformers/STAR";
+import RICKROLL from "./components/rickroll/RICKROLL";
+import FOOTER from "./components/footer/FOOTER";
 
 function App() {
   return (
     <>
       <NAVBAR />
+      <br />
+      <br />
       <Router>
         <Switch>
           <Route exact path="/">
@@ -16,9 +20,14 @@ function App() {
           <Route exact path="/stars">
             <STAR />
           </Route>
-          <Route exact path="/rickroll"></Route>
+          <Route exact path="/rickroll">
+            <RICKROLL />
+          </Route>
         </Switch>
       </Router>
+      <br />
+      <br />
+      <FOOTER />
     </>
   );
 }
