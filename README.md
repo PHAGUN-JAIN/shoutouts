@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Getting Started
+## Run Locally
 
 - Fork this Repo
 
@@ -11,6 +11,28 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ```bash
     git clone git@github.com:PHAGUN-JAIN/shoutouts.git
 ```
+
+- Navigate to the project folder
+
+```bash
+    cd shoutouts
+```
+
+- Install dependencies
+
+```bash
+ # Install NPM dependencies
+    npm i
+```
+
+- start app
+
+```bash
+# Then simply start your app
+    npm start
+```
+
+## Make your changes
 
 - Create a branch
 
