@@ -1,5 +1,9 @@
 # Shoutsouts
 
+This app is a shoutout place for recognizing valuable members of the student chapter called [UNITED CLUB OF DEVELOPERS](https://ucdupes.org/)
+
+contributions and enhancements are welcomed!
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Run Locally
