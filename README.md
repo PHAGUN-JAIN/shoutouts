@@ -4,8 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Run Locally
 
-- Fork this Repo
-
 - Clone your fork to your local machine
 
 ```bash
